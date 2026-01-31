@@ -1,5 +1,5 @@
 
-// import BoardgameCard from './BoardgameCard.svelte';
+// import FaqItem from './FaqItem.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
