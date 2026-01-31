@@ -16,7 +16,7 @@
 		PrintAndPlay,
 		Team,
 		Api,
-		Free_Block_3
+		// Free_Block_3
 		// CTA,
 	} from '$widgetsLanding';
 	import { Cookies, Faq, Citats } from '$widgets';

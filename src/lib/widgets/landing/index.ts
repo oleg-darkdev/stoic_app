@@ -14,7 +14,7 @@ import Newsletter from './Newsletter.svelte';
 import Team from './Team.svelte';
 import PrintAndPlay from './PrintAndPlay.svelte';
 import Api from './Api.svelte';
-import Free_Block_3 from './Free_Block_3.svelte';
+// import Free_Block_3 from './Free_Block_3.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
 // import Hero from './hero/ui/Hero.svelte';
@@ -24,7 +24,7 @@ import Free_Block_3 from './Free_Block_3.svelte';
 
 export {
 	Header,
-	Free_Block_3,
+	// Free_Block_3,
 	Free_Block_1,
 	Free_Block_2,
 	PrintAndPlay,
