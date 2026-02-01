@@ -42,14 +42,14 @@
               </div>
             </div>
           </div>
-          <div data-w-id="e21a45cb-ef85-2484-9ecc-a68c84d2e57a" class="clickable-mobile-area">
+          <!-- <div data-w-id="e21a45cb-ef85-2484-9ecc-a68c84d2e57a" class="clickable-mobile-area">
             <div class="mobile-menu-button">
               <div class="button-text-wrapper">
                 <div class="standard-text white">Menu</div>
                 <div class="standard-text white">Close</div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
