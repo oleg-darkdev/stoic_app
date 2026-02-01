@@ -36,7 +36,7 @@
 			index: '(04)',
 			description:
 				'The teacher of Epictetus and one of the strictest Stoics. He taught philosophy as a practice of everyday life and moral discipline.',
-			image: 'images/philosofers/musonius/2.jpg',
+			image: 'images/philosofers/rufus/2.jpg',
 			imageAlt: 'Gaius Musonius Rufus'
 		}
 	];

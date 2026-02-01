@@ -207,7 +207,72 @@
 		</div>
 	</div>
 	<div class="container">
-		{#each gallery as imgSet}
+		<!-- [
+			{
+				subTitle: '8 types',
+				img: '/images/gallery/4.JPG',
+				title: 'Full set of elements',
+				altText: 'Full set of elements'
+			},
+			{
+				subTitle: '4 different rolls',
+				img: '/images/gallery/2.JPG',
+				title: ' Player tablets',
+				altText: 'Placeholder image 4'
+			}
+		] -->
+			{#each gallery as imgSet}
+			<div class="showcase-component">
+				<div class="_4-rem-showcase-divider"></div>
+				<div class="related-showcase-wrap">
+					<div
+						id="w-node-_1cf0c83d-a3ae-fc7b-ff9e-a4a3d330e65d-b4ea5f9d"
+						class="showcase-half-img-wrap"
+					>
+						<a href="/" class="project-link w-inline-block">
+							<div class="project-thumbnail-wrapper">
+								<img
+									src='/images/gallery/4.JPG'
+									loading="lazy"
+									alt='Full set of elements'
+									class="project-thumbnail"
+								/>
+								<div class="image-mask"></div>
+							</div>
+							<div class="">
+								<div class="project-info-block">
+									<div class="medium-text">Full set of elements</div>
+									<div class="standard-text black-50">8 types</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div
+						id="w-node-_1cf0c83d-a3ae-fc7b-ff9e-a4a3d330e669-b4ea5f9d"
+						class="showcase-half-img-wrap"
+					>
+						<a href="/" class="project-link w-inline-block">
+							<div class="project-thumbnail-wrapper">
+								<img
+									src='/images/gallery/2.JPG'
+									loading="lazy"
+									alt='Player tablets'
+									class="project-thumbnail"
+								/>
+								<div class="image-mask"></div>
+							</div>
+							<div class="">
+								<div class="project-info-block">
+									<div class="medium-text">Player tablets</div>
+									<div class="standard-text black-50">4 different rolls</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		{/each}
+		<!-- {#each gallery as imgSet}
 			<div class="showcase-component">
 				<div class="_4-rem-showcase-divider"></div>
 				<div class="related-showcase-wrap">
@@ -257,7 +322,7 @@
 					</div>
 				</div>
 			</div>
-		{/each}
+		{/each} -->
 	</div>
 </section>
 

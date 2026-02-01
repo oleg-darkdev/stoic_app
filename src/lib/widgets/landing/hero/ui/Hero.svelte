@@ -52,7 +52,7 @@
 				Seneca, Epictetus, Marcus Aurelius, and Gaius Musonius Rufus.
 			</div>
 		</div>
-		<a href="#expertise" class="button mobile-hero w-button">Lorem Ipsum jest</a>
+		<!-- <a href="#expertise" class="button mobile-hero w-button">Lorem Ipsum jest</a> -->
 	</div>
 	<div class="service-intro-list hide-mobile">
 		<div class="_12-column-grid">
