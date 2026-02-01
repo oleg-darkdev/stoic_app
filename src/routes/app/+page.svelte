@@ -3,7 +3,7 @@
 	import {} from '$sharedUi';
 	import {} from '$widgetsApp';
 	import { CitateCard } from '$entitiesApp';
-	import { first } from '$sharedData';
+	// import { second } from '$sharedData';
 	import { slide } from 'svelte/transition';
 
 	import { writable } from 'svelte/store';
@@ -11,6 +11,23 @@
 	let orgsMode = writable({
 		progress: 0
 	});
+
+	let { data } = $props();
+
+	let {
+		emotionalFiltered,
+		moralFiltered,
+		socialFiltered,
+		intellectualFiltered,
+		existentialFiltered
+	} = data;
+
+	// console.log(emotionalFiltered);
+	// console.log(moralFiltered);
+	// console.log(socialFiltered);
+	// console.log(intellectualFiltered);
+	// console.log(existentialFiltered);
+	// console.log(emotionalFiltre);
 	// import { SEO } from '$sharedUtils';
 </script>
 
@@ -31,7 +48,7 @@
 		>
 	</div>
 	<!-- <div transition:slide> -->
-	{#each first as citate, index (citate.id)}
+	{#each emotionalFiltered as citate, index (citate.id)}
 		{#if $orgsMode.progress == index}
 			<div class="mx-auto" transition:slide>
 				<CitateCard {citate} />

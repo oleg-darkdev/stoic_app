@@ -2,6 +2,7 @@
 	import { promo } from '$sharedData';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
+
 </script>
 
 <section id="citats" class="testimonial-block">
@@ -33,7 +34,7 @@
 							/> -->
 							<div class="people-info-text">
 								<div class="medium-text">{citate.author}</div>
-								<div class="flex flex-row flex-wrap ">
+								<div class="flex flex-row flex-wrap">
 									{#each citate.themes.splice(0, 6) as theme}
 										<div class="tools-item"><div class="standard-text">{theme}</div></div>
 										<!-- <div class="standard-text black-50 mr-4">{theme}</div> -->
