@@ -4,45 +4,44 @@
 	// import {  } from '$entities'
 
 	const gallery = [
-		
-		[
-			{
-				subTitle: 'Sed do eiusmod tempor',
-				img: '/images/gallery/10.png',
-				title: 'Lorem Ipsum Title 3',
-				altText: 'Placeholder image 3'
-			},
-			{
-				subTitle: 'Incididunt ut labore et dolore',
-				img: '/images/gallery/11.png',
-				title: 'Lorem Ipsum Title 4',
-				altText: 'Placeholder image 4'
-			}
-		],
 		// [
 		// 	{
 		// 		subTitle: 'Sed do eiusmod tempor',
-		// 		img: '/images/gallery/11.jpg',
+		// 		img: '/images/gallery/10.png',
 		// 		title: 'Lorem Ipsum Title 3',
 		// 		altText: 'Placeholder image 3'
 		// 	},
 		// 	{
 		// 		subTitle: 'Incididunt ut labore et dolore',
-		// 		img: '/images/gallery/12.jpg',
+		// 		img: '/images/gallery/11.png',
 		// 		title: 'Lorem Ipsum Title 4',
 		// 		altText: 'Placeholder image 4'
 		// 	}
 		// ],
+		[
+			{
+				subTitle: '8 types',
+				img: '/images/gallery/4.JPG',
+				title: 'Full set of elements',
+				altText: 'Full set of elements'
+			},
+			{
+				subTitle: '4 different rolls',
+				img: '/images/gallery/2.JPG',
+				title: ' Player tablets',
+				altText: 'Placeholder image 4'
+			}
+		]
 		// [
 		// 	{
 		// 		subTitle: 'Sed do eiusmod tempor',
-		// 		img: '/images/gallery/13.jpg',
+		// 		img: '/images/gallery/4.JPG',
 		// 		title: 'Lorem Ipsum Title 3',
 		// 		altText: 'Placeholder image 3'
 		// 	},
 		// 	{
 		// 		subTitle: 'Incididunt ut labore et dolore',
-		// 		img: '/images/gallery/14.jpg',
+		// 		img: '/images/gallery/8.JPG',
 		// 		title: 'Lorem Ipsum Title 4',
 		// 		altText: 'Placeholder image 4'
 		// 	}
@@ -75,7 +74,6 @@
 		// 		altText: 'Placeholder image 4'
 		// 	}
 		// ],
-		
 	];
 
 	const baseInfo = [
@@ -95,6 +93,12 @@
 			icon: '/icons/players.svg'
 		},
 		{
+			title: 'Mechanic',
+			counter: 'Cooperative / Educative',
+			icon: '/icons/mechanic.svg'
+		},
+
+		{
 			title: 'Open Source',
 			counter: '',
 			icon: '/icons/open-source.svg'
@@ -113,7 +117,7 @@
 				<div class="work-content-block">
 					{#each baseInfo as info}
 						<div class="flex flex-row items-center justify-center">
-							<img src={info.icon} class="h-10 w-10 mr-2" alt="" />
+							<img src={info.icon} class="mr-2 h-10 w-10" alt="" />
 							<p class="large-text">
 								{info.title} <span class="">{info.counter}</span>
 							</p>
@@ -129,7 +133,12 @@
 			>
 				<a href="/" class="project-link w-inline-block">
 					<div class="project-thumbnail-wrapper">
-						<img loading="lazy" alt="project-thumbnail" src="/images/gallery/6.png" class="project-thumbnail" />
+						<img
+							loading="lazy"
+							alt="project-thumbnail"
+							src="/images/gallery/7.JPG"
+							class="project-thumbnail"
+						/>
 						<div class="image-mask"></div>
 					</div>
 					<!-- <div class="">
@@ -198,7 +207,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<!-- {#each gallery as imgSet}
+		{#each gallery as imgSet}
 			<div class="showcase-component">
 				<div class="_4-rem-showcase-divider"></div>
 				<div class="related-showcase-wrap">
@@ -248,7 +257,7 @@
 					</div>
 				</div>
 			</div>
-		{/each} -->
+		{/each}
 	</div>
 </section>
 
