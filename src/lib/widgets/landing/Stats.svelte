@@ -20,7 +20,7 @@
 			desc: 'Explore the fundamental concepts of Stoicism: the distinction between what is within our control and what is not, the value of virtue, the power of reason, and the importance of inner calm.'
 		},
 		{
-			count: 0,
+			count: 8,
 			title: 'Stoic Practices',
 			desc: 'Stoicism is not just a philosophy, but a set of concrete practices that help manage emotions, accept the inevitable, and maintain inner balance.'
 		}
