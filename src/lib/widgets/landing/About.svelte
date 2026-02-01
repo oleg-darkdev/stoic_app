@@ -25,7 +25,6 @@
 			</div>
 			<div
 				id="w-node-cebaa910-8405-e00e-71d5-142581d24b8b-b4ea5f94"
-				data-w-id="cebaa910-8405-e00e-71d5-142581d24b8b"
 				class="image-mask-wrapper"
 			>
 				<img

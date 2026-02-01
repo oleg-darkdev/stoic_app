@@ -158,7 +158,7 @@
 											{/each}
 										</ul>
 									</div>
-									{#if step.btnTitle.length == 0}
+									{#if step.btnTitle.length > 1}
 										<a href={step.link} target="_blank" class="button black w-button"
 											>{step.btnTitle}</a
 										>

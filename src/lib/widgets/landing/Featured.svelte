@@ -4,34 +4,78 @@
 	// import {  } from '$entities'
 
 	const gallery = [
-		[
-			{
-				subTitle: 'Lorem ipsum dolor sit',
-				img: '/images/gallery/empty.jpg',
-				title: 'Lorem Ipsum Title 1',
-				altText: 'Placeholder image 1'
-			},
-			{
-				subTitle: 'Consectetur adipiscing elit',
-				img: '/images/gallery/empty.jpg',
-				title: 'Lorem Ipsum Title 2',
-				altText: 'Placeholder image 2'
-			}
-		],
+		
 		[
 			{
 				subTitle: 'Sed do eiusmod tempor',
-				img: '/images/gallery/empty.jpg',
+				img: '/images/gallery/10.png',
 				title: 'Lorem Ipsum Title 3',
 				altText: 'Placeholder image 3'
 			},
 			{
 				subTitle: 'Incididunt ut labore et dolore',
-				img: '/images/gallery/empty.jpg',
+				img: '/images/gallery/11.png',
 				title: 'Lorem Ipsum Title 4',
 				altText: 'Placeholder image 4'
 			}
-		]
+		],
+		// [
+		// 	{
+		// 		subTitle: 'Sed do eiusmod tempor',
+		// 		img: '/images/gallery/11.jpg',
+		// 		title: 'Lorem Ipsum Title 3',
+		// 		altText: 'Placeholder image 3'
+		// 	},
+		// 	{
+		// 		subTitle: 'Incididunt ut labore et dolore',
+		// 		img: '/images/gallery/12.jpg',
+		// 		title: 'Lorem Ipsum Title 4',
+		// 		altText: 'Placeholder image 4'
+		// 	}
+		// ],
+		// [
+		// 	{
+		// 		subTitle: 'Sed do eiusmod tempor',
+		// 		img: '/images/gallery/13.jpg',
+		// 		title: 'Lorem Ipsum Title 3',
+		// 		altText: 'Placeholder image 3'
+		// 	},
+		// 	{
+		// 		subTitle: 'Incididunt ut labore et dolore',
+		// 		img: '/images/gallery/14.jpg',
+		// 		title: 'Lorem Ipsum Title 4',
+		// 		altText: 'Placeholder image 4'
+		// 	}
+		// ],
+		// [
+		// 	{
+		// 		subTitle: 'Sed do eiusmod tempor',
+		// 		img: '/images/gallery/15.jpg',
+		// 		title: 'Lorem Ipsum Title 3',
+		// 		altText: 'Placeholder image 3'
+		// 	},
+		// 	{
+		// 		subTitle: 'Incididunt ut labore et dolore',
+		// 		img: '/images/gallery/16.jpg',
+		// 		title: 'Lorem Ipsum Title 4',
+		// 		altText: 'Placeholder image 4'
+		// 	}
+		// ],
+		// [
+		// 	{
+		// 		subTitle: 'Sed do eiusmod tempor',
+		// 		img: '/images/gallery/17.jpg',
+		// 		title: 'Lorem Ipsum Title 3',
+		// 		altText: 'Placeholder image 3'
+		// 	},
+		// 	{
+		// 		subTitle: 'Incididunt ut labore et dolore',
+		// 		img: '/images/gallery/17.jpg',
+		// 		title: 'Lorem Ipsum Title 4',
+		// 		altText: 'Placeholder image 4'
+		// 	}
+		// ],
+		
 	];
 
 	const baseInfo = [
@@ -59,7 +103,7 @@
 </script>
 
 <section id="features">
-	<div class="container">
+	<div class="container -mb-64">
 		<div class="_12-column-grid large-gap">
 			<div id="w-node-cebaa910-8405-e00e-71d5-142581d24bf7-b4ea5f94" class="">
 				<div class="section-title-wrapper">
@@ -85,15 +129,15 @@
 			>
 				<a href="/" class="project-link w-inline-block">
 					<div class="project-thumbnail-wrapper">
-						<img loading="lazy" alt="project-thumbnail" src="" class="project-thumbnail" />
+						<img loading="lazy" alt="project-thumbnail" src="/images/gallery/6.png" class="project-thumbnail" />
 						<div class="image-mask"></div>
 					</div>
-					<div class="">
+					<!-- <div class="">
 						<div class="project-info-block">
 							<div class="medium-text">Lorem Ipsum</div>
 							<div class="standard-text black-50">Lorem, Ipsum, jest, tekstem</div>
 						</div>
-					</div>
+					</div> -->
 				</a>
 			</div>
 
@@ -154,7 +198,7 @@
 		</div>
 	</div>
 	<div class="container">
-		{#each gallery as imgSet}
+		<!-- {#each gallery as imgSet}
 			<div class="showcase-component">
 				<div class="_4-rem-showcase-divider"></div>
 				<div class="related-showcase-wrap">
@@ -204,7 +248,7 @@
 					</div>
 				</div>
 			</div>
-		{/each}
+		{/each} -->
 	</div>
 </section>
 
