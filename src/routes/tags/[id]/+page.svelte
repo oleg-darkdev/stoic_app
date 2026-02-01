@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-	<title>Template | {$page.data.locale}</title>
+	<title>Persona | {$page.data.locale}</title>
 	<meta name="description" content="" />
 </svelte:head>
 

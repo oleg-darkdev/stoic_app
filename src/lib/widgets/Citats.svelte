@@ -24,18 +24,19 @@
 							{citate.text}
 						</div>
 						<div class="people-info-block">
-							<img
+							<!-- <img
 								src="images/65b2247ecca0749a612d0df0_Testimonial%20Logo%202.png"
 								loading="lazy"
 								width="64"
 								alt="Partner Logo"
 								class="testimonial-logo"
-							/>
+							/> -->
 							<div class="people-info-text">
 								<div class="medium-text">{citate.author}</div>
-								<div class="flex flex-row flex-wrap">
+								<div class="flex flex-row flex-wrap ">
 									{#each citate.themes.splice(0, 6) as theme}
-										<div class="standard-text black-50 mr-4">{theme}</div>
+										<div class="tools-item"><div class="standard-text">{theme}</div></div>
+										<!-- <div class="standard-text black-50 mr-4">{theme}</div> -->
 									{/each}
 								</div>
 							</div>
