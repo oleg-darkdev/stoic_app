@@ -9,7 +9,7 @@
 			index: '(01)',
 			description:
 				'A Roman Stoic philosopher, writer, and statesman. His works focus on ethics, self-discipline, and the ability to remain calm in the face of fate.',
-			image: 'images/seneca.avif',
+			image: 'images/philosofers/seneca/2.jpg',
 			imageAlt: 'Seneca'
 		},
 		{
@@ -18,7 +18,7 @@
 			index: '(02)',
 			description:
 				'A former slave who became one of the most influential Stoic philosophers. He taught how to distinguish between what is within our control and what is not.',
-			image: 'images/epictetus.avif',
+			image: 'images/philosofers/epictetus/2.jpg',
 			imageAlt: 'Epictetus'
 		},
 		{
@@ -27,7 +27,7 @@
 			index: '(03)',
 			description:
 				'A Roman emperor and philosopher. His *Meditations* are a personal journal on duty, reason, and living in accordance with nature.',
-			image: 'images/marcus.avif',
+			image: 'images/philosofers/marcus/2.jpg',
 			imageAlt: 'Marcus Aurelius'
 		},
 		{
@@ -36,7 +36,7 @@
 			index: '(04)',
 			description:
 				'The teacher of Epictetus and one of the strictest Stoics. He taught philosophy as a practice of everyday life and moral discipline.',
-			image: 'images/musonius.avif',
+			image: 'images/philosofers/musonius/2.jpg',
 			imageAlt: 'Gaius Musonius Rufus'
 		}
 	];

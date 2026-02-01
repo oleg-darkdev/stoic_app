@@ -83,7 +83,7 @@
 
 	<Team />
 
-	<Faq />
+	<!-- <Faq /> -->
 
 	<Newsletter />
 

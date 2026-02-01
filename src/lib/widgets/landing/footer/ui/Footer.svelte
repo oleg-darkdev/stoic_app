@@ -4,7 +4,6 @@
 	// import {  } from '$entities'
 	import links from '../data/links';
 
-
 	const contacts = [
 		{
 			title: 'Linkedin',
@@ -26,7 +25,7 @@
 			title: 'Buy me a coffee',
 			link: 'https://buymeacoffee.com/oleg_darkdev'
 		}
-	]
+	];
 </script>
 
 <div class="footer-container">
@@ -41,11 +40,13 @@
 		</a>
 		<div id="w-node-d429f99a-70bc-6376-15b8-e98d6e8bb14b-6e8bb146" class="service-content-block">
 			<div class="large-text white">
-				Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem
-				próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając
-				praktycznie niezmienionym.
+				This educational tabletop game immerses you in the philosophy of Stoicism, turning abstract
+				ideas into practical experience through cards, challenges, and quotes from the great Stoics.
+				The game is complemented by a web application that deepens your knowledge, provides
+				interactive materials, and helps analyze the quotes, transforming the learning process into
+				an engaging and mindful journey.
 			</div>
-			<a href="/app" target='_blank' class="button w-button">Let's start</a>
+			<a href="/app" target="_blank" class="button w-button">Let's start</a>
 		</div>
 		<div id="w-node-d429f99a-70bc-6376-15b8-e98d6e8bb150-6e8bb146" class="divider white"></div>
 		<div id="w-node-d429f99a-70bc-6376-15b8-e98d6e8bb151-6e8bb146" class="back-to-top-block">
@@ -73,7 +74,7 @@
 			id="w-node-d429f99a-70bc-6376-15b8-e98d6e8bb159-6e8bb146"
 			class="footer-link-block-wrapper"
 		>
-			<div id='contact' class="standard-text white">Homepage</div>
+			<div id="contact" class="standard-text white">Homepage</div>
 			<div class="footer-link-list">
 				{#each links as link}
 					<!-- w--current -->
@@ -88,7 +89,7 @@
 			<div class="standard-text white">Contact</div>
 			<div class="footer-link-list">
 				{#each contacts as contact}
-				<a href="{contact.link}" target="_blank" class="footer-link">{contact.title}</a>
+					<a href={contact.link} target="_blank" class="footer-link">{contact.title}</a>
 				{/each}
 			</div>
 		</div>
